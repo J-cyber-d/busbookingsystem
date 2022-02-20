@@ -54,3 +54,5 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CA49709AC01442D3948B251A77BF9DE1 }}
           package: .
+       GITHUB_TOKEN
+       
